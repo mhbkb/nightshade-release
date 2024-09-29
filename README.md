@@ -23,7 +23,7 @@ Next, run `data_extraction.py` to select a set of 100 poison candidates. `python
 
 #### Step 2: Poison Generation
 
-Next, we add perturbation to the images given a target concept (e.g. "cat"). `python3 data_extraction.py --directory selected_data/ --target_name cat --outdir OUTPUTDIR`. The code will output the perturbed images to the output folder.
+Next, we add perturbation to the images given a target concept (e.g. "cat"). `python3 gen_poison.py --directory selected_data/ --target_name cat --outdir OUTPUTDIR`. The code will output the perturbed images to the output folder.
 
 #### Requirements
 `torch=>2.0.0`, `diffusers>=0.20.0`
